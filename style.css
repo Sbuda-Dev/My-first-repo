@@ -1,0 +1,57 @@
+body{
+
+    background-color: oldlace;
+}
+
+header{
+
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(64, 14, 14);
+}
+
+header h1{
+
+    color: beige;
+}
+
+header p{
+
+    color: blanchedalmond;
+    text-shadow: 50%;
+
+}
+
+.main-img{
+
+    width: 240px;
+    height: 255px;
+    border-radius: 50%;
+    box-shadow: black;
+    float: left;
+    position: fixed;
+
+}
+
+.main-container{
+
+    display: flex;
+    float: left;
+    align-items: center;
+    padding-left: 70px;
+    padding-bottom: 70px;
+}
+
+article p{
+
+    padding: 60px;
+    
+}
+
+form {
+
+    padding: 60px;
+    display: block;
+    align-items: center;
+}
