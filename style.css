@@ -30,7 +30,8 @@ header p{
     border-radius: 50%;
     box-shadow: black;
     float: left;
-    position: fixed;
+    position: relative;
+    
 
 }
 
@@ -54,4 +55,52 @@ form {
     padding: 60px;
     display: block;
     align-items: center;
+    position: absolute;
+    float: left;
+}
+
+table th, td {
+
+    border-collapse: collapse;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+th, td {
+
+    background-color: bisque;
+}
+
+.form-container{
+
+    display: flexbox;
+    position: relative;
+    align-items: right;
+    background-color: burlywood;
+    padding: 20px;
+}
+
+section table{
+
+   padding: 20px;
+   display: block;
+   
+}
+
+div.mycontainer {
+    width:100%;
+    overflow:auto;
+}
+
+div.mycontainer div {
+    width:33%;  
+    float:left;
+  }
+
+
+footer{
+
+    align-items: center;
+    display: block;
+    
 }

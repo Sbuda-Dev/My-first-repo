@@ -9,6 +9,9 @@
 <body>
     
     <header id="home">
+        <div class="pic-container">
+            <img src="mainpic.jpg" class="main-img" alt="me in formal">
+        </div>
         
         <img src="mlogo.png" width="55" alt="logo">
         <h1>Mthokozisi S'busiso Mthimkhulu</h1>
@@ -20,9 +23,7 @@
             <a href="#contact">Contact</a>
         </nav>
         </h2>
-        <div class="main-container">
-            <img src="mainpic.jpg" class="main-img" alt="Me in Vienna">
-        </div>
+        
         
     </header>
     <br><br>
@@ -31,27 +32,58 @@
         <br>
         <br><br>
         <article id="about">
-            
-            <p>An aspiring Software Developer from Mpumalanga. Currently<br>
-                living in Centurion, in chase of the dream! I love football,<br> 
-                music and gaming.<br>
-            </p>
-            
+            <div class="mycontainer">
+                <div>
+                    <p>An aspiring Software Developer from Mpumalanga. Currently<br>
+                        living in Centurion, in chase of the dream! I love football,<br> 
+                        music and gaming.<br>
+                    </p>
+                </div>
+                
+                <div>
+                    <table>
+                        <tr>
+                            <th>Bucket list</th>
+                            <th>Complete or Incomplete</th>
+                        </tr>
+                        <tr>
+                            <td>Watch an NBA match live in USA
+                            <td>Not yet</td>
+                        </tr>
+                        <tr>
+                            <td>Drive an F1 vehicle</td>
+                            <td>Not yet</td>
+                        </tr>
+                        <tr>
+                            <td>Go skydiving</td>
+                            <td>Not yet</td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
             <hr>
+            
         </article>
+       
     </section>
     
     <footer>
-        <form>
-            <label for name="name">Name:</label>
-            <input type="text" id="name" name="name">
-
-            <label for name="surnname">Surname:</label>
-            <input type="text" id="surnname" name="surname">
+        <form id="contact">
             
-            <label for name="name">Message:</label>
-            <input type="text" id="message" name="message">
+                <label for name="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+            
+                <label for name="surnname">Surname:</label><br>
+                <input type="text" id="surnname" name="surname"><br><br>
+          
+                <label for name="name">Message:</label><br>
+                <input type="text" id="message" name="message"><br><br>
+
+                <input type="submit" value="Submit">
+         
         </form>
+        
     </footer>
     
 </body>
